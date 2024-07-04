@@ -1,3 +1,9 @@
+:root {
+    --layer-1: 0;
+    --layer-2: 100;
+    --layer-3: 1000;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -5,7 +11,7 @@
 
 #ar-button {
     position: fixed;
-    z-index: 1000;
+    z-index: var(--layer-3);
     padding: 0.5rem;
     bottom: 1rem;
     left: 50%;
