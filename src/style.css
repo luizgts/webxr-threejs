@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#ar-button {
+    position: fixed;
+    z-index: 1000;
+    padding: 0.5rem;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
